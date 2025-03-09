@@ -1,0 +1,20 @@
+.direitos{
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #486837, #242421);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.direitos-totais{
+    width: 200px;
+
+    font-size: 11px;
+    color: bisque;
+    border-radius: 4px;
+
+}
