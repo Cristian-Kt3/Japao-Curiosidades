@@ -1,3 +1,45 @@
-main{
-    color: aliceblue
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    margin: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #486837,#0a0a0a);
+}
+.itens{
+    justify-items: center;
+    width: 500px;
+    height: 200px;
+    margin: 15px 50px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0, 0.1);
+    background-color: #486837;
+}
+.itens h1{
+    padding: 2px;
+    font-size: 25px;
+}
+.itens p{
+    padding: 5px;
+}
+.imagem1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 15px 50px;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 7px 2px rgba(0,0,0, 0.1);
+    background-color: #486837;
+}
+img{
+    margin: 15px;
+    width: 450px;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0, 0.1);
 }
