@@ -1,10 +1,10 @@
 header{
+    display: block;
     justify-content: center;
     align-items: center;
     min-height: 18vh;
     max-height:26vh;
     border: 1px solid rgba(0, 0, 0, 0.1);;
-    border-radius:2px ;
     background: linear-gradient(to right, #d7f5ba ,#5e7c43);
 }
 .main_text{
@@ -25,12 +25,6 @@ header{
 }
 
 
-#menu{
-    display: flex;
-    align-items: center;
-    margin: 2.5vh 32.5vw ;
-}
-
 
 header button, a{
     color: #5e7c43;
@@ -43,4 +37,16 @@ header button{
     border-radius: 20px;
     box-shadow: 5px 7px 4px 0px rgba(0, 0, 0, 0.1);
     background-color: black;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 40px;
+    height: 200;
 }
