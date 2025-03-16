@@ -2,20 +2,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 800px;
+
     margin: 10px;
     border-radius: 10px;
-    background: linear-gradient(to right, #486837,#0a0a0a);
+    border: 2px solid rgba(225,225,225, 0.1);
+    background-color:transparent;
+    backdrop-filter: blur (15px);
 }
 .itens{
     justify-items: center;
-    width: 500px;
-    height: 200px;
-    margin: 15px 50px;
+
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0px 0px 7px 2px rgba(0,0,0, 0.1);
-    background-color: #486837;
+    background-color:transparent;
+    backdrop-filter: blur (15px);
 }
 .itens h1{
     padding: 2px;
@@ -24,18 +25,8 @@
 .itens p{
     padding: 5px;
 }
-.imagem1{
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin: 15px 50px;
-    width: 500px;
-    height: 300px;
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0px 0px 7px 2px rgba(0,0,0, 0.1);
-    background-color: #486837;
-}
+
+
 img{
     margin: 15px;
     width: 450px;
